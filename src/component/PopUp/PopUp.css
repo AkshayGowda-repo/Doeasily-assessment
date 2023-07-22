@@ -1,0 +1,153 @@
+.pop-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.767);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-box {
+  background-color: white;
+  width: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.dialog-close:hover {
+  cursor: pointer;
+}
+.dialog-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dialog-header {
+  display: flex !important;
+}
+
+.dialog-heading {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.dialog-inputs {
+  padding: 2rem;
+}
+
+.dialog-fields-heading {
+  font-size: 1.2rem;
+  color: #484848;
+}
+
+.dialog-fields-selection-container {
+  display: flex;
+}
+
+.dialog-fields-heading {
+  margin-bottom: 0.5rem;
+}
+
+.dialog-fields-selection {
+  width: 15rem;
+  height: 2rem;
+  border: 1px solid #8e8e8e;
+  border-radius: 0.4rem;
+  padding: 5px;
+  font-size: 1rem;
+  color: #8e8e8e;
+  display: flex !important;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.dialog-fields-button {
+  height: 2rem;
+  padding: 0.5rem;
+  display: flex !important;
+  align-items: center;
+  border-radius: 0.8rem;
+  margin-left: 1rem;
+}
+
+.dialog-button-name {
+  font-size: 1.2rem;
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+.dialog-button-purple {
+  background-color: #ebe4ff;
+}
+
+.dialog-button-grey {
+  background-color: #e0e4eb;
+}
+
+.dialog-fields-input-container {
+  font-size: 1.2rem;
+  color: #8e8e8e;
+}
+
+.dialog-fields-input {
+  margin-top: 1.5rem;
+  margin-right: 3rem;
+}
+
+.dialog-fields-input-name {
+  color: #484848;
+  margin-bottom: 0.5rem;
+}
+.dialog-fields-input input {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 0.4rem;
+  border: 1px solid #8e8e8ec5;
+  padding-left: 0.6rem;
+  font-size: 1rem;
+  color: #8e8e8ec2;
+}
+
+.dialog-fields-input-flex {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.dialog-button {
+  height: 5rem;
+  display: flex;
+}
+
+.dialog-button div {
+  margin-left: auto;
+  margin-top: auto;
+  display: flex;
+}
+
+.dialog-cancel-button,
+.dialog-save-button {
+  width: 5rem;
+  border: 1px solid black;
+  border-radius: 0.9rem;
+  padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+  display: flex;
+  margin-right: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.dialog-save-button {
+  background-color: #484848;
+  color: white;
+}
+
+.dialog-save-button:hover {
+  cursor: pointer;
+}
+
+.dialog-cancel-button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,79 @@
+.export-container {
+  margin-top: auto;
+  margin-left: auto;
+  color: #4f617d;
+}
+
+.export-doc-type-container {
+  display: flex;
+  border-top: 1px solid #4f617d;
+  border-right: 1px solid #4f617d;
+  border-left: 1px solid #4f617d;
+  border-radius: 10px 10px 0 0;
+}
+
+.export-doc-type {
+  display: flex;
+  margin: 0.6rem;
+}
+
+.export-doc-name {
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+}
+
+.export-info-type-container {
+  display: flex;
+  border-top: 1px solid #4f617d;
+  border-right: 1px solid #4f617d;
+  border-left: 1px solid #4f617d;
+}
+
+.export-info-type {
+  display: flex;
+  margin: 0.6rem;
+}
+
+.export-info-name {
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+}
+
+.export-button-container {
+  display: flex;
+  padding-right: 5rem;
+
+  border-bottom: 1px solid #4f617d;
+  border-right: 1px solid #4f617d;
+  border-left: 1px solid #4f617d;
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+.export-doc-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: white;
+  border: 1px solid #4f617d;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  color: #4f617d;
+  margin: 0.4rem;
+}
+
+.export-doc-button-container:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(134, 174, 216) 0%, rgb(187, 225, 233) 100%);
+ }
+ 
+ .export-doc-button-container:active {
+  transform: translate(0em, 0.2em);
+ }
+
+.export-doc-button-text {
+  margin-left: 0.2rem;
+}

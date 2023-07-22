@@ -1,0 +1,42 @@
+.content-container {
+  height: 100%;
+  width: 100%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.metal-toggle-container {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.metal-toggle {
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaa7a7;
+  border-radius: 1rem;
+}
+
+.metal {
+  color: white;
+  font-size: 1.4rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.active-metal {
+  border: 1px solid #484848;
+  background-color: white;
+  color: #484848;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.party-export-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

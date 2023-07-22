@@ -1,0 +1,35 @@
+.heading-container {
+  margin-left: 2.6rem;
+  display: flex;
+  justify-content: flex-start;
+  height: 2.5rem;
+}
+
+.heading {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #484848;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+.tabs {
+  margin-bottom: 1rem;
+}
+
+.tab {
+  font-size: 1.5rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding-left: 6rem;
+  color: #484848;
+}
+.active-tab {
+  background-color: #484848;
+  color: white;
+}
+
+.toggle-btn {
+  cursor: pointer;
+}

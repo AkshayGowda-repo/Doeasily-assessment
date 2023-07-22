@@ -1,0 +1,58 @@
+.party-container {
+  border: 7px solid #4f617d1f;
+  border-radius: 10px;
+  padding: 1.2rem;
+}
+
+.party-header {
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  margin-top: 10px;
+}
+.party-heading {
+  color: #4f617d;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+.add-party-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem; */
+  border: 1px solid #4f617d;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  color: #4f617d;
+}
+
+.add-party-button-container:hover {
+  cursor: pointer;
+}
+
+.add-party-button-text {
+  margin-left: 0.2rem;
+}
+
+.metal-price-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+
+.metal-price {
+  padding: 1rem 1.2rem 0 1.2rem;
+}
+.metal-name {
+  color: #4f617d;
+}
+
+.red {
+  color: #bc5c5c;
+}
+
+.green {
+  color: #55a654;
+}
